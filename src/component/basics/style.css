@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #c9e2c4;
+}
+.navbar{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.navbar .btn-group{
+    width: 120rem;
+    margin: 1.5rem auto;
+}
+.navbar .btn-group .btn-items{
+    padding: 1rem 1.6rem;
+    margin: 0 0.6rem;
+    border: none;
+    outline: none;
+    background-color: #f1f1d7;
+    text-transform: uppercase;
+    box-shadow: .7rem 1rem 1.5rem black;
+    transition: all 0.3s;
+}
+.navbar .btn-group .btn-items:hover{
+    background-color: tomato;
+    color: white;
+}
+.card-container{
+    width: 35rem;
+    display: inline-block;
+    height: 54rem;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    margin: 2.5rem 4rem;
+    background-color: white;
+    box-shadow: 8px 10px 15px #202020;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+.card-container:hover{
+    transform: scale(1.08);
+}
+.card-container .card{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.card-container .card .card-body{
+    position: relative; 
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+.card-number{
+    position: absolute;
+    left:0;
+    top: 0;
+    border:2px solid #747474;
+    color: #747474;
+    width: 1.8rem;
+    font-weight: 700;
+    height: 1.8rem;
+    border-radius: 50%;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+.card-category{
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    text-transform: capitalize;
+}
+.card-title{
+    margin-top: 2.3rem;
+    margin-bottom: .7rem;
+    text-transform: capitalize;
+}
+.card-price{
+    display: block;
+}
+.card-media{
+    width: 30rem;
+    height: 25rem;
+    margin: 0 auto 2rem auto;
+    display: block;
+    box-shadow: .3rem .6rem 1rem #504f4f;
+}
+.card-tag{
+    margin-left: 10rem;
+    background-color: yellow;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    box-shadow: .3rem .3rem .3rem #acacac;
+}
+.card-tag:active{
+  bottom: 0.8rem;
+}
+.card-description{
+    color: #504f4f;
+}
+.line{
+    width: 6.5rem;
+    height: .2rem;
+    background-color: rgb(2, 248, 76);
+    margin-bottom: 1rem;
+}
+.card-read{
+    text-align: right;
+    margin-right: 2rem;
+}
